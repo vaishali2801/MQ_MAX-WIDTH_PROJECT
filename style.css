@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
 }
 .container{
     max-width: 1200px;
@@ -20,16 +24,26 @@
     flex-wrap: wrap;
 }
 .box{ 
-    border-radius: 4px;
-    background-color: transparent;
+    background-color: white;
+    box-shadow: 0px 25px 60px rgba(66, 85, 164, 0.06);
+    padding: 29px 24px;
+    border-radius: 20px;
+    display: flex;
 }
 .nav{
     max-width: 1580px;
     margin:auto;
+   
 }
-/* .m-top{
-    margin-top: 10px;
-} */
+.big-box{
+    
+}
+.cl{
+    background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
+}
+.position{
+    position: fixed;
+}
 .j-c-c{
     justify-content: center;
 }
@@ -91,7 +105,29 @@
 h1{
     text-align: center;
 }
+.butn{
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.butn{
+    display: none;
+}
+.butn i{
+    font-size: 30px;
+}
 
+.btns{
+    padding: 15px 40px;
+    color: white;
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    border-radius: 5px;
+}
 .btn{
     padding: 15px 40px;
     color: white;
@@ -102,8 +138,16 @@ h1{
     font-style: normal;
     border-radius: 5px;
 }
+.btns:hover{
+    background-color: #AE59FF;
+}
+.btn:hover{
+    background-color:#FF9F67;
+    border: none;
+}
 
 /* color */
+
 .b-c-1{
     background-color: #FF9F67;
     border: none;
@@ -126,6 +170,11 @@ h1{
     font-style: normal;     
       
 }
+
+/* margin */
+.m-1{
+    margin-top: -110px;
+}
 .m-t{
     margin-top: 200px;
 }
@@ -140,7 +189,6 @@ ul{
 .font-family-1{
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight:700;
     font-style: normal;
     color: white;
     font-size: 60px;
@@ -158,4 +206,104 @@ ul{
     text-align: start;
     line-height: 30px;
     margin-bottom: 30px;
+}
+h3{
+    font-family: "Josefin Sans", sans-serif;
+    color: #4255A4;
+    margin-top: 0px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+h2{
+    font-family: "Josefin Sans", sans-serif;
+    color: #4255A4;
+    font-style: normal;
+    font-size: 42px;
+    display: block;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.feature p{
+    font-size: 17px;
+    line-height: 1.5;
+    color: #4255A4;
+    font-family: "Mulish", sans-serif;
+    font-weight: normal;
+}
+.book img{
+    position: relative;
+    top: 8px;
+    margin-right: 20px;
+}
+.box1{
+    box-shadow: 0px 6px 6px 0px rgba(2, 25, 65, 0.08);
+    border-radius: 10px;
+}
+
+.card{
+    padding: 29px 20px 20px 20px;
+}
+.box1:hover button{
+  background-color: #FF9F67;
+  color: white;
+}
+.big img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.font1 a{
+   text-decoration: none; 
+   font-family: "Josefin Sans", sans-serif;
+   color: #4255A4;
+   font-size: 20px;
+   font-weight: 500;
+}
+.font1 p{
+    color: #6E7697;
+    font-size: 17px;
+    margin: 0px 0px 15px;
+    padding-right: 13px;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+ }
+ .rating i{
+    font-size: 18px;
+    color: #FF7B2E;
+    font-weight: 900;
+ }
+ .crimson-text{
+    color: #FF7B2E;
+    font-size: 12px;
+    font-family: "Mulish", sans-serif;
+ }
+ .div1{
+    cursor: pointer;
+    font-weight: 600;
+    color: #4255A4;
+    font-size: 22px;
+    margin-left:130px;
+ }
+.btn1{
+    padding: 18px 42px;
+    width: 100%;
+    font-size: 17px;
+    color: #4255A4;
+    background-color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:600;
+    line-height: 1.3;
+    border: 1px solid #E2E4FF;
+    border-radius: 5px;
+    position: relative;
+    overflow:hidden ;
+    margin-top: 20px;
 }
