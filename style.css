@@ -35,9 +35,6 @@
     margin:auto;
    
 }
-.big-box{
-    
-}
 .cl{
     background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
 }
@@ -60,7 +57,7 @@
     padding: 20px;
 }
 .p-3{
-    padding: 20px;
+    padding: 30px;
 }
 
 
@@ -158,6 +155,13 @@ h1{
 }
 .div{
     display: block;
+    position: relative;
+    left: 30%;
+   
+}
+.imag{
+    position: relative;
+    left: 13%;
 }
 .div a{
     padding: 2px 39px;
@@ -181,6 +185,9 @@ h1{
 .margin{
     margin-right: 20px;
     margin-left: 20px;
+}
+.m-top{
+    margin-top: 90px;
 }
 
 ul{
@@ -226,6 +233,8 @@ h2{
     font-weight: 600;
     line-height: 1.3;
     margin-bottom: 21px;
+}
+.t-a-c{
     text-align: center;
 }
 
@@ -245,6 +254,11 @@ h2{
     box-shadow: 0px 6px 6px 0px rgba(2, 25, 65, 0.08);
     border-radius: 10px;
 }
+.box2{
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
 
 .card{
     padding: 29px 20px 20px 20px;
@@ -307,3 +321,24 @@ h2{
     overflow:hidden ;
     margin-top: 20px;
 }
+.circle{
+    border-radius: 50%;
+    width: 80px;
+    background: linear-gradient(rgb(234, 226, 254) 0%, rgb(163, 118, 255) 1%, rgb(234, 104, 255) 98%, rgb(236, 125, 254) 99%, rgb(243, 243, 250) 99%, rgb(244, 245, 250) 100%);
+    margin-bottom: 20px;
+}
+.box2 p{
+    font-family: "Mulish", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+ }
+.right p{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #4255A4;
+}
+
+
