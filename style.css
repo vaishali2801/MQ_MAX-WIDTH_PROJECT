@@ -11,6 +11,12 @@
     max-width: 1200px;
     margin: auto;
 }
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .image{
     background: url(./img/background.png);
     background-size: cover;
@@ -189,6 +195,18 @@ h1{
 .m-top{
     margin-top: 90px;
 }
+.mt-45{
+    margin-top: 45px;
+}
+.mt-90{
+    margin-top: 90px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
 
 ul{
     list-style: none;
@@ -216,7 +234,7 @@ ul{
 }
 h3{
     font-family: "Josefin Sans", sans-serif;
-    color: #4255A4;
+    color:#2e407f;
     margin-top: 0px;
     font-style: normal;
     font-size: 20px;
@@ -226,7 +244,7 @@ h3{
 }
 h2{
     font-family: "Josefin Sans", sans-serif;
-    color: #4255A4;
+    color:#2e407f;
     font-style: normal;
     font-size: 42px;
     display: block;
@@ -241,7 +259,7 @@ h2{
 .feature p{
     font-size: 17px;
     line-height: 1.5;
-    color: #4255A4;
+    color:#2e407f;
     font-family: "Mulish", sans-serif;
     font-weight: normal;
 }
@@ -254,12 +272,6 @@ h2{
     box-shadow: 0px 6px 6px 0px rgba(2, 25, 65, 0.08);
     border-radius: 10px;
 }
-.box2{
-    border: 1px solid green;
-    border-radius: 10px;
-}
-
-
 .card{
     padding: 29px 20px 20px 20px;
 }
@@ -274,7 +286,7 @@ h2{
 .font1 a{
    text-decoration: none; 
    font-family: "Josefin Sans", sans-serif;
-   color: #4255A4;
+   color:#2e407f;
    font-size: 20px;
    font-weight: 500;
 }
@@ -302,7 +314,7 @@ h2{
  .div1{
     cursor: pointer;
     font-weight: 600;
-    color: #4255A4;
+    color:#2e407f;
     font-size: 22px;
     margin-left:130px;
  }
@@ -310,7 +322,7 @@ h2{
     padding: 18px 42px;
     width: 100%;
     font-size: 17px;
-    color: #4255A4;
+    color:#2e407f;
     background-color: white;
     font-family: "Josefin Sans", sans-serif;
     font-weight:600;
@@ -338,7 +350,125 @@ h2{
 .right p{
     font-size: 16px;
     line-height: 1.8;
-    color: #4255A4;
+    color:#2e407f;
+}
+.right{
+    display: flex;
+}
+.right img{
+    margin-right: 20px;
+}
+.bol{
+    margin-top: 50px;
+}
+.bol2{
+    margin-top: 20px;
+}
+.box2{
+    border-radius: 5px;
+}
+.box3{
+    transition: all 0.5s;
+    background: url(./img/topic1.png),#2e407f; 
+}
+.box4{
+   
+    background: url(./img/topic2.png),#2e407f;
+}
+.box5{
+
+    background: url(./img/topic3.png),#2e407f;
+}
+.box6{
+    background: url(./img/topic4.png),#2e407f;
+    
+}
+.box7{
+    background: url(./img/topic5.png),#2e407f;
+    
+}
+.box8{
+    background: url(./img/topic6.png),#2e407f;
+}
+.box9{
+    background: url(./img/topic7.png),#2e407f;
+    
+}
+.box10{
+    background: url(./img/topic8.png),#2e407f;
+    
+}
+.bg-box{
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s;
+}
+.bg-box:hover{
+    background-blend-mode: overlay;
+}
+.font2{
+    color: white;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.font2:hover{
+    text-decoration: underline;
+    color: white;
+}
+.t-c{
+    text-align: center;
+}
+.section-title button{
+    border: 1px solid #FF9F67;
+    color: #FF9F67;
+    font-family: "Josefin Sans", sans-serif;
+    background: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 18px 42px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: color 0.4s linear;
+    overflow: hidden;
+}
+.right-content{
+    margin-left: 100px;
+
+}
+.right-content img{
+    width: 100%;
+    
+}
+.circle1{
+    border-radius: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.circle1 img{
+    margin-bottom: 30px;
+}
+.circle1 h3{
+    font-family: "Josefin Sans", sans-serif;
+    color:#4255A4;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    display: block;
+    text-transform: capitalize;
+}
+.width-5{
+    width: 500px;
+}
+.left-content img{
+    width: 100%;
 }
 
 
