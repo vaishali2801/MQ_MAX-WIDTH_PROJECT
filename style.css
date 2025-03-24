@@ -44,8 +44,13 @@
 .cl{
     background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
 }
+.d-flex{
+    display: flex;
+}
 .position{
     position: fixed;
+    width: 100%;
+    top: 0;
 }
 .j-c-c{
     justify-content: center;
@@ -64,6 +69,9 @@
 }
 .p-3{
     padding: 30px;
+}
+.p-600{
+    padding: 600px;
 }
 
 
@@ -161,13 +169,7 @@ h1{
 }
 .div{
     display: block;
-    position: relative;
-    left: 30%;
    
-}
-.imag{
-    position: relative;
-    left: 13%;
 }
 .div a{
     padding: 2px 39px;
@@ -187,6 +189,9 @@ h1{
 }
 .m-t{
     margin-top: 200px;
+}
+.m-t-400{
+    margin-top: 400px;
 }
 .margin{
     margin-right: 20px;
@@ -440,12 +445,19 @@ h2{
 }
 .right-content{
     margin-left: 100px;
-
+    position: relative;
 }
-.right-content img{
+
+.left-content img{
     width: 100%;
     
 }
+.ri-play-circle-fill{
+    font-size:60px;
+    color:#FF9F67;
+    padding-top: 200px;
+}
+
 .circle1{
     border-radius: 50%;
     margin-bottom: 20px;
@@ -469,6 +481,65 @@ h2{
 }
 .left-content img{
     width: 100%;
+}
+.bg-cl{
+    background-color: #4255a4;
+}
+h4{
+    color: white;
+    font-size:22px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 29px;
+    font-style: normal;
+}
+.class1 p{
+    color: white;
+    padding-right: 52px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.8;
+    width: 370px;
+    margin-top: 20px;
+}
+.class2 a{
+    display: flex;
+    margin-bottom: 15px;
+    text-align: start;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.p-l{
+    padding-left: 180px;
+}
+.p-5{
+    padding-top: 80px;
+}
+.class2 a:hover{
+    text-decoration: underline;
+}
+.icon{
+    color: white;
+    font-size: 15px;
+    background-color: #485aad;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.last{
+    width: 100%;
+    margin-top: 30px;
+    padding-right: 50px;
+    text-align: center;
+}
+.last p{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 12px;
+    font-family: "Mulish", sans-serif;
 }
 
 
